@@ -1,0 +1,31 @@
+/*  Nav Bar  */
+
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    height: 65px;
+    width: 97px;
+}
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+.links {
+    height: 40px;
+    width: 180px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.burger-menu {
+    display: none;
+}
+.nav-menu {
+    display: none;
+}

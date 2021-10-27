@@ -1,0 +1,17 @@
+/*  Message Icon  */
+
+.message-icon {
+    height: 90px;
+    width: 90px;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    display: flex;
+    cursor: pointer;
+    z-index: 998;
+}
+.message-icon img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}

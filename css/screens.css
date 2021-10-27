@@ -1,0 +1,30 @@
+
+@media only screen and (min-width: 2000px) {
+    /*  Banner  */
+    .banner{
+        margin-bottom: 20%;
+    }
+    .banner-icon img:nth-child(1) {
+        width: 95% !important;
+    }
+    .banner-bg img {
+        height: 212%;
+    }
+    .banner-des-mini{
+        margin:7% 0;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    /*  Offers  */
+    .offer {
+        width: 300px;
+    }
+    /*  Related Articles  */
+    .related-articles-right-arrow,
+    .related-articles-left-arrow {
+        display: none;
+    }
+}
+

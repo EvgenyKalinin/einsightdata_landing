@@ -1,0 +1,13 @@
+
+@media only screen and (max-width: 800px) {
+    /*  Main Article  */
+    .post-steps {
+        margin-top: 100px !important;
+    }
+    .main-article-img img {
+        width: 400px;
+        height: fit-content;
+        padding-top: 50px;
+        margin-bottom: -200px;
+    }
+}

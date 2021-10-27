@@ -1,0 +1,89 @@
+/*  Banner  */
+
+.banner {
+    height: 570px;
+    width: 100vw;
+    margin-top: 400px;
+}
+.banner-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.banner-bg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.banner-bg img {
+    height: 130%;
+    width: 100%;
+    transform: translateY(-22%);
+}
+.banner-content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+}
+.banner-icon {
+    height: 100%;
+    width: 50%;
+}
+.banner-icon img:nth-child(1) {
+    width: 95%;
+    transform: translateY(-25%);
+}
+.twitter-icon {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    right: 61%;
+    top: -13%;
+}
+.banner-des {
+    height: 100%;
+    width: 50%;
+}
+.banner-des h3 {
+    text-align: left;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: uppercase;
+}
+.banner-des h3:nth-child(1) {
+    margin-top: -25px;
+}
+.banner-des p {
+    text-align: left;
+    color: var(--white);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    width: 90%;
+    margin-top: 20px;
+}
+.banner-des img {
+    height: 50px;
+    margin-top: 20px;
+}
+.banner-des h4 {
+    text-align: left;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: -15px;
+}

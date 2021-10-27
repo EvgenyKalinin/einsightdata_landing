@@ -1,0 +1,180 @@
+/*  Features  */
+
+.features {
+    height: 1115px;
+    width: 100%;
+    margin-top: 50px;
+}
+.feature-1 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: 100px;
+}
+.calculator {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.calculator-container {
+    height: 250px;
+    width: 420px;
+    background-color: var(--white);
+    border-radius: 20px;
+    box-shadow: 0px 4px 26px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    padding: 50px;
+}
+.calculator-container h5 {
+    text-align: center;
+    color: var(--fontColor);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+.calculator-icon {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.calculator-icon img {
+    height: 100%;
+    width: 100%;
+}
+.calculator-result {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.calculator-result p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.slider {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 0;
+    flex-direction: column;
+}
+.slider input {
+    -webkit-appearance: none;
+    height: 7px;
+    width: 100%;
+    background-color: var(--darkGray);
+    border-radius: 4px;
+}
+.slider .progress {
+    height: 7px;
+    width: 50%;
+    background-color: var(--primaryColor);
+    border-radius: 4px;
+    margin-top: -7px;
+}
+.slider input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    background-color: var(--primaryColor);
+    border: 8px solid #D5F2FB;
+    border-radius: 10%;
+}
+
+.feature-2 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 100px;
+}
+.feature-icon {
+    display: flex;
+    height: 100%;
+    flex: 1;
+}
+.feature-icon img {
+    height: 130%;
+    margin-top: -10%;
+}
+.feature-des {
+    display: flex;
+    height: 100%;
+    flex: 1;
+    flex-direction: column;
+}
+.feature-des h4 {
+    text-align: left;
+    font-weight: 500;
+    font-size: 36px;
+    color: var(--fontColor);
+    line-height: 43px;
+    text-transform: uppercase;
+}
+.feature-des h5 {
+    text-align: left;
+    color: var(--fontColor);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.feature-des p {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--fontColor);
+    margin-top: 30px;
+}
+.feature-3 {
+    height: 210px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+}
+.features-col {
+    height: 100%;
+    flex: 1;
+}
+.feature {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+.feature img {
+    height: 90%;
+    margin-right: 30px;
+}
+.feature-wrapper {
+    height: 100%;
+    width: 70%;
+}
+.feature-wrapper h5 {
+    text-align: left;
+    color: var(--fontColor);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.feature-wrapper p {
+    text-align: left;
+    color: var(--fontColor);
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}

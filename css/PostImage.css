@@ -1,0 +1,12 @@
+/*  Post Image  */
+
+.post-img {
+    height: 470px;
+    width: 380px;
+    display: block;
+    margin: 20px auto;
+}
+.post-img img {
+    height: 100%;
+    width: 100%;
+}

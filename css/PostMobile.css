@@ -1,0 +1,63 @@
+
+@media only screen and (max-width: 900px) {
+    /*  Post Header  */
+    .post-header {
+        flex-direction: column;
+        height: 600px;
+        margin-top: -5px;
+    }
+    .post-header-img {
+        height: 40%;
+        width: 100%;
+    }
+    .post-header-des {
+        height: 60%;
+        width: 100%;
+    }
+
+    /*  Related Articles  */
+    .related-articles {
+        height: 1100px;
+    }
+    .related-articles-left-arrow,
+    .related-articles-right-arrow {
+        display: none;
+    }
+    .article {
+        margin-bottom: 100px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    /*  Post Header  */
+    .post-header {
+        height: 800px;
+    }
+
+    /*  Post Steps  */
+    .post-steps {
+        margin-top: -100px;
+    }
+    .step {
+        width: 100%;
+    }
+    .step::before {
+        height: 10px !important;
+        width: 10px !important;
+        margin: 0 !important;
+        display: none;
+    }
+
+    /*  Post Image  */
+    .post-img {
+        width: 300px;
+        height: 440px;
+        margin-left: -20px;
+    }
+
+    /*  Related Articles  */
+    .related-articles-container {
+        margin-left: -25px;
+    }
+    
+}

@@ -1,0 +1,11 @@
+/*  Post Paragraph  */
+
+.post-paragraph {
+    text-align: left;
+    color: var(--fontColor);
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    width: 90%;
+}

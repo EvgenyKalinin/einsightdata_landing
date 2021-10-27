@@ -1,0 +1,40 @@
+/*  Hero Banner  */
+
+.hero-banner {
+    height: 420px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+}
+.banner-hero-icon {
+    width: 50%;
+    height: 100%;
+}
+.banner-hero-icon img {
+    height: 100%;
+}
+.banner-hero-des {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-hero-des h4 {
+    text-align: left;
+    color: var(--fontColor);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: uppercase;
+    width: 80%;
+}
+.banner-hero-des p {
+    text-align: left;
+    color: var(--fontColor);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 30px;
+    width: 90%;
+}

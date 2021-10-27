@@ -1,0 +1,38 @@
+/*  Post Header  */
+
+.post-header {
+    height: 250px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+}
+.post-header-img {
+    height: 100%;
+    width: 40%;
+}
+.post-header-img img {
+    width: 80%;
+}
+.post-header-des {
+    height: 100%;
+    width: 60%;
+}
+.post-header-des h3 {
+    text-align: left;
+    color: var(--fontColor);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    width: 90%;
+}
+.post-header-des p {
+    text-align: left;
+    color: var(--fontColor);
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 20px;
+    width: 90%;
+}
